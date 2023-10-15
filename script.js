@@ -11,7 +11,7 @@ console.log(jsonPracownicy;
 
 jsonPracownicy.forEarch(function(pracownik) {
   // console.log(pracownik.firstName + ' ' + pracownik.lastName)
-  console.log(pracownik)
+  console.log(pracownik);
 })
 
 
