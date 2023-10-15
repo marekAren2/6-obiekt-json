@@ -1,6 +1,21 @@
 
-/* 
+const jsonPracownicy = {
+  "pracownicy": [
+    { "firstName": "Krystian", "lastName": "Dziopa" },
+    { "firstName": "Anna", "lastName": "Szapiel" },
+    { "firstName": "Piotr", "lastName": "Żmuda" }
+  ]
+}
+// console.log(pracownicy) nie zdfiniowany
+console.log(jsonPracownicy;
 
+jsonPracownicy.forEarch(function(pracownik) {
+  // console.log(pracownik.firstName + ' ' + pracownik.lastName)
+  console.log(pracownik)
+})
+
+
+/*
 Pobierz do zmiennej jsonPracownicy poniższy obiekt:
 
 {
