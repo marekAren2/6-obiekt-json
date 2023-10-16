@@ -10,14 +10,10 @@ console.log(jsonPracownicy); // nie zdefiniowany
 
 console.log(jsonPracownicy.pracownicy);
 
-// jsonPracownicy.pracownicy.forEarch(function(pracownik) {
-// // console.log(pracownik.firstName + ' ' + pracownik.lastName)
-// console.log(pracownik);
-//  })
-
 jsonPracownicy.pracownicy.forEach((record) => console.log(record));
 jsonPracownicy.pracownicy.forEach(
     (record,index) => 
+    // (index,record) => //nie dziala
     console.log(index,record.firstName,record.lastName))
 /*
 Pobierz do zmiennej jsonPracownicy poniższy obiekt:
