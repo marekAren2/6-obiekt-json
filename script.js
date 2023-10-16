@@ -1,5 +1,5 @@
 
-const jsonPracownicy = {
+let jsonPracownicy = {
   "pracownicy": [
     { "firstName": "Krystian", "lastName": "Dziopa" },
     { "firstName": "Anna", "lastName": "Szapiel" },
@@ -7,14 +7,12 @@ const jsonPracownicy = {
   ]
 }
 // console.log(pracownicy) nie zdfiniowany
-console.log(jsonPracownicy;
+console.log(jsonPracownicy);
+console.log(jsonPracownicy.pracownicy);
 
-jsonPracownicy.forEarch(function(pracownik) {
-  // console.log(pracownik.firstName + ' ' + pracownik.lastName)
-  console.log(pracownik);
-})
-
-
+jsonPracownicy.pracownicy.forEach((prac) => console.log(prac));
+jsonPracownicy.pracownicy.forEach((wiersz, lp) => console.log(lp, wiersz.firstName, wiersz.lastName));
+// jsonPracownicy.pracownicy.forEach((record) => console.log(record));
 /*
 Pobierz do zmiennej jsonPracownicy poniższy obiekt:
 
